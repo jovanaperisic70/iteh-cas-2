@@ -46,9 +46,7 @@
             </tr>
             </thead>
             <tbody>
-            <?php
-            while ($red = $result->fetch_array()) {
-                ?>
+            
                 <tr>
                     <td><?php echo $red["predmet"] ?></td>
                     <td><?php echo $red["katedra"] ?></td>
@@ -62,9 +60,6 @@
                     </td>
 
                 </tr>
-                <?php
-            }
-            } ?>
             </tbody>
         </table>
         <div class="row" >
@@ -195,8 +190,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
-
-
 
 </body>
 </html>
